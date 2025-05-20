@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="SIE-Formación">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="mayte">
+      <firstName>Mayte</firstName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="javier">
+      <firstName>Javier</firstName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="fernando">
+      <firstName>Fernando</firstName>
+      <title>Coordinador</title>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="fermin">
+      <firstName>Fermín</firstName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="lola">
+      <firstName>Lola</firstName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="carlos">
+      <firstName>Carlos</firstName>
+      <title>Delegado de Alumnos</title>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="maria">
+      <firstName>María</firstName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="elena">
+      <firstName>Elena</firstName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="antonio">
+      <firstName>Antonio</firstName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="miembro">
+      <displayName>miembro</displayName>
+    </role>
+    <role name="alumno">
+      <displayName>alumno</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="Gestión">
+      <displayName>Gestión</displayName>
+    </group>
+    <group name="Dirección" parentPath="/Gestión">
+      <displayName>Dirección</displayName>
+    </group>
+    <group name="Tesorería" parentPath="/Gestión">
+      <displayName>Tesorería</displayName>
+    </group>
+    <group name="Instructores">
+      <displayName>Instructores</displayName>
+    </group>
+    <group name="Estudiantado">
+      <displayName>Estudiantado</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>mayte</userName>
+      <roleName>miembro</roleName>
+      <groupName>Dirección</groupName>
+      <groupParentPath>/Gestión</groupParentPath>
+    </membership>
+    <membership>
+      <userName>javier</userName>
+      <roleName>miembro</roleName>
+      <groupName>Tesorería</groupName>
+      <groupParentPath>/Gestión</groupParentPath>
+    </membership>
+    <membership>
+      <userName>fernando</userName>
+      <roleName>miembro</roleName>
+      <groupName>Instructores</groupName>
+    </membership>
+    <membership>
+      <userName>fermin</userName>
+      <roleName>miembro</roleName>
+      <groupName>Instructores</groupName>
+    </membership>
+    <membership>
+      <userName>lola</userName>
+      <roleName>miembro</roleName>
+      <groupName>Instructores</groupName>
+    </membership>
+    <membership>
+      <userName>carlos</userName>
+      <roleName>alumno</roleName>
+      <groupName>Estudiantado</groupName>
+    </membership>
+    <membership>
+      <userName>maria</userName>
+      <roleName>alumno</roleName>
+      <groupName>Estudiantado</groupName>
+    </membership>
+    <membership>
+      <userName>elena</userName>
+      <roleName>alumno</roleName>
+      <groupName>Estudiantado</groupName>
+    </membership>
+    <membership>
+      <userName>antonio</userName>
+      <roleName>alumno</roleName>
+      <groupName>Estudiantado</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>
