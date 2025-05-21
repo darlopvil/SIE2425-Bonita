@@ -42,7 +42,9 @@
       <firstName>Carlos</firstName>
       <title>Delegado de Alumnos</title>
       <personalData/>
-      <professionalData/>
+      <professionalData>
+        <email>delegado@alum.us.es</email>
+      </professionalData>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
     </user>
